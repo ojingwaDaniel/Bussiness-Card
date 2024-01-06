@@ -5,7 +5,7 @@
 .App {
   display: flex;
   width: 550px;
-  height: 868px;
+  height: 900px;
   background: #23252c;
   padding: 44px 117px 44px 116px;
   flex-direction: column;
@@ -120,5 +120,25 @@ button > span {
 .footer{
   width: 317px;
   height: 64px;
+  margin-top: 100px;
+  border-radius: 0px 0px 10px 10px;
+  background: hsl(240, 6%, 9%);
+  margin-left: 72px;
+}
+.footer img{
+  padding: 20px 19px;
+}
+@media screen and (max-width:600px ) {
+  .App {
+  display: flex;
+  margin-left: 10px;
+  width: 350px;
+  height: 100%;
+  
+}
+.footer{
+  width: 300px;
+  margin-left: 10px;
 }
 
+}
