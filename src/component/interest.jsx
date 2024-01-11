@@ -4,7 +4,7 @@ export default function Interest(){
         <h1 className="interest-header">Interest</h1>
         <p>
           Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-          Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+          Entrepreneur. Travel geek.Soccer Analysis expert.
         </p>
       </div>
     );
